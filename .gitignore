@@ -1,0 +1,3 @@
+# Don’t track large testing assets
+for_testing/testing_images/
+for_testing/models/
