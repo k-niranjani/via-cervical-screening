@@ -5,7 +5,8 @@ This repository contains the full machine learning workflow for **automated cerv
 - Self-supervised backbone pretraining (SimCLR + ResNet50)  
 - Classification models (baseline, transfer learning, and backbone-integrated)  
 - Segmentation models (YOLO-based and improved with pretrained encoder)  
-- Utility scripts and prototype GUI  
+- Utility scripts 
+- Testing functions
 
 The goal is to build a scalable and reproducible experimentation framework for cervical disease detection and triage.
 
@@ -66,9 +67,6 @@ This module pretrains a ResNet50 encoder using **SimCLR contrastive learning** o
 
 Install dependencies:
 
-```bash  
-pip install -r requirements.txt  
-```
 
 ---
 
@@ -101,6 +99,6 @@ Chen et al., *A Simple Framework for Contrastive Learning of Visual Representati
 | Component | Status |  
 |----------|--------|  
 | SimCLR Pretraining | Complete |  
-| Classification Models | Improving |  
+| Classification Models | Complete |  
 | Segmentation Models | In Progress |  
-| GUI Prototype | Draft |  
+| Testing functions | In progress |  
